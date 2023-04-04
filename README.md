@@ -12,6 +12,10 @@ Here are the steps to get started with the OpenAI API implementation in Unity:
 
 4- Paste your API key into the designated field.
 
+
+![Screenshot 2023-04-04 225327](https://user-images.githubusercontent.com/36339248/229877209-0e4df7fb-e5e1-478c-b669-98ddeea91561.png)
+
+
 That's it! You can now test the OpenAI functionality within your Unity project.
 
 ## Demo
