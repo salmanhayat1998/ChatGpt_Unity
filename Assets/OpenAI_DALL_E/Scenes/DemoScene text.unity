@@ -501,7 +501,7 @@ MonoBehaviour:
   text: {fileID: 895215664}
   resultTxt: {fileID: 516700645}
   getBtn: {fileID: 1535262130929395545}
-  apiKey: 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
+  apiKey: 
 --- !u!1001 &1535262130929395542
 PrefabInstance:
   m_ObjectHideFlags: 0
