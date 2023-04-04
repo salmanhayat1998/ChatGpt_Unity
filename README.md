@@ -4,13 +4,13 @@ This project serves as a fundamental implementation of the OpenAI API in Unity, 
 ## How To get started
 Here are the steps to get started with the OpenAI API implementation in Unity:
 
-Sign up for an OpenAI account and obtain your API key from the following link: https://platform.openai.com/account/api-keys
+1- Sign up for an OpenAI account and obtain your API key from the following link: https://platform.openai.com/account/api-keys
 
-Clone the repository to your local machine.
+2- Clone the repository to your local machine.
 
-Open scenes 1 and 2 in Unity and navigate to the 'DemoUsage' object in the hierarchy.
+3- Open scenes 1 and 2 in Unity and navigate to the 'DemoUsage' object in the hierarchy.
 
-Paste your API key into the designated field.
+4- Paste your API key into the designated field.
 
 That's it! You can now test the OpenAI functionality within your Unity project.
 
