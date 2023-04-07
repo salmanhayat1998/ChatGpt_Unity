@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OpenAI_DALL_E/Scenes/DemoScene text.unity
     guid: 1c04fb07127e481448d533f9b4199b36
+  - enabled: 1
+    path: Assets/OpenAI_DALL_E/Scenes/DemoScene Dalle.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

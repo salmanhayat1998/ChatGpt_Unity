@@ -26,7 +26,7 @@ namespace OpenAI_DALL_E.Scripts.Demo
 
             variationButton.onClick.AddListener(()=>
             {
-                ImageFetcher.GetImageFromPrompt2(new DALL_E_ImageFetcher.InputData( ImageFetcher.texttoPng(), 1 , imageSize));
+               // ImageFetcher.GetImageFromPrompt2(new DALL_E_ImageFetcher.InputData( ImageFetcher.texttoPng(), 1 , imageSize));
                 variationButton.interactable = false;
             });
             ImageFetcher.OnImageGenerated += SetUIImage;
