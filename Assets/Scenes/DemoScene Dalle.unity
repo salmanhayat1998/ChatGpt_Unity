@@ -2604,7 +2604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1fadbb83037e9a45aa870b25de7d40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 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
+  apiKey: 
   uiImage: {fileID: 744313152}
   generateButton: {fileID: 129851357}
   variationButton: {fileID: 396119707}
