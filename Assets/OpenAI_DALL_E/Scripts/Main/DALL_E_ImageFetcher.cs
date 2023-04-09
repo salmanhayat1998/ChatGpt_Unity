@@ -44,16 +44,6 @@ namespace OpenAI_DALL_E.Scripts.Main
             }
             StartCoroutine(SendRequest(promptData));
         }   
-        //public void GetImageFromPrompt2(InputData promptData)
-        //{
-        //    if (string.IsNullOrEmpty(apiKey))
-        //    {
-        //        Debug.LogError("Api Key is needed to access Open AI Api See Link :" +
-        //                       "https://platform.openai.com/account/api-keys");
-        //        return;
-        //    }
-        //    StartCoroutine(SendRequest2(promptData));
-        //}
 
         #region Main
 
@@ -112,80 +102,7 @@ namespace OpenAI_DALL_E.Scripts.Main
 
             }
         }
-              
-        //private IEnumerator SendRequest2(InputData promptData)
-        //{
-        //    // convert our  custom class into json format as it is required. See https://platform.openai.com/docs/api-reference/images/create //
-        //    // the format is prompt, number of images, size e.g 512x512 // 
-        //    // response_format: The format in which the generated images are returned. Must be one of url or b64_json 
-        //    //Destroy(tex);
-            
-        //    string json = JsonUtility.ToJson(promptData);
 
-        //    var request = new UnityWebRequest();
-        //    request = new UnityWebRequest(APILinkVariation);
-        //    request.uploadHandler = new UploadHandlerRaw(Encoding.UTF8.GetBytes(json));
-        //    // request.uploadHandler.contentType = "application/json";
-        //    request.downloadHandler = new DownloadHandlerBuffer();
-        //    request.method = UnityWebRequest.kHttpVerbPOST;
-        //    request.SetRequestHeader("Authorization", "Bearer " + apiKey);
-        //    yield return request.SendWebRequest();
-
-        //    if (request.result != UnityWebRequest.Result.Success)
-        //    {
-        //        Debug.Log("came");
-        //        OnImageGenerated?.Invoke(null);
-        //        Debug.Log(request.error);
-        //    }
-        //    else
-        //    {
-        //        Result res = JsonUtility.FromJson<Result>(request.downloadHandler.text);
-        //        var textureRequest = UnityWebRequestTexture.GetTexture(res.data[0].url);
-        //        textureRequest.SendWebRequest();
-        //        yield return new WaitUntil(() => textureRequest.isDone);
-
-        //        if (textureRequest.result == UnityWebRequest.Result.Success)
-        //        {
-        //            tex = DownloadHandlerTexture.GetContent(textureRequest);                   
-        //            OnImageGenerated?.Invoke(tex);
-
-        //        }
-        //        else
-        //        {
-        //            OnImageGenerated?.Invoke(null);
-        //            Debug.Log(textureRequest.error);
-        //        }
-
-        //    }
-        //}
-
-
-
-
-        //void saveImg()
-        //{
-        //    byte[] bytes = tex.EncodeToPNG();
-        //    File.WriteAllBytes(Application.dataPath + "/Resources/img.png", bytes);
-        //    AssetDatabase.Refresh();
-        //}
-
-        //public string texttoPng()
-        //{
-        //    //byte[] bytes = tex.EncodeToPNG();
-        //    //string enc = Convert.ToBase64String(bytes);
-        //    //return enc;
-        //  //  string path = Application.dataPath + "/Resources/img.png";
-        //    string path =  "@img.png";
-
-        //    Debug.Log(path);
-        //    return path;
-        //    //if (File.Exists(Application.dataPath + "/img.png"))
-        //    //{
-        //    //    return Application.dataPath + "/img.png";
-        //    //}
-        //    //else
-        //    //    return "";
-        //}
         #endregion
 
         #region Models
